@@ -1,10 +1,10 @@
-import { Component, useState } from 'react';
+import {  useState } from 'react';
 import { Section } from './Section';
 import { Feedback } from './Feedback';
 import { Statistic } from './Statistics';
 import { NotificationText } from './Add.styled';
 
-export const App = () => {
+export function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
